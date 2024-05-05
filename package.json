@@ -1,0 +1,22 @@
+{
+    "name": "web_js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "xhr.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node xhr.js",
+        "lint": "eslint **/*.js --ignore-pattern node_modules/"
+    },
+    "author": "",
+    "license": "ISC",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "devDependencies": {
+        "@eslint/js": "^9.2.0",
+        "eslint": "^8.57.0",
+        "eslint-plugin-react": "^7.34.1",
+        "globals": "^15.1.0"
+    }
+}
